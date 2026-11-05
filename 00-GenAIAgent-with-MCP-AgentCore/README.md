@@ -1,7 +1,7 @@
 # Gen AI Agent - MCP & AWS
 
-Objective : 
-Learn to build your first AI agent using the Strands framework with MCP (Model Context Protocol) servers and deploy to AWS AgentCore Runtime. This workshop covers the complete journey from local development to production deployment.
+OBJECTIVE : 
+Learn to build first AI agent using the Strands framework with MCP (Model Context Protocol) servers and deploy to AWS AgentCore Runtime. This excercise the complete journey from local development to production deployment.
 Build a Strands Agent with custom tools ---> Create an MCP Server for reusable tools ---> Connect agents to MCP servers ---> Deploy to AgentCore Runtime (production)
 
 ACTIONS TAKEN:
