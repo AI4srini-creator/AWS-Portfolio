@@ -1,6 +1,6 @@
 # Gen AI Agent - MCP & AWS
 
-Objective
+Objective : 
 Build a Strands Agent with custom tools
 Create an MCP Server for reusable tools
 Connect agents to MCP servers
