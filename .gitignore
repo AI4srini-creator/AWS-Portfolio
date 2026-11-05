@@ -218,3 +218,56 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# ==========================================
+# AWS Credentials, CLI & Local Overrides
+# ==========================================
+.aws/
+aws/credentials
+aws/config
+*.pem
+*.key
+*.id_rsa
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# Terraform / OpenTofu (IaC)
+# ==========================================
+# Exclude local state files containing sensitive resource data
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Exclude CLI cache and plan output
+.terraform/
+.terraform.lock.hcl
+*.tfplan
+
+# ==========================================
+# AWS CDK & SAM Build Artifacts
+# ==========================================
+.aws-sam/
+cdk.out/
+cdk.context.json
+
+# ==========================================
+# Jupyter Notebooks & Checkpoints
+# ==========================================
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# ==========================================
+# IDE & System Files
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
