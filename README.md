@@ -1,5 +1,3 @@
-# AWS-Portfolio
-
 # AWS Cloud & AI Engineering Portfolio
 
 A dedicated technical portfolio showcasing practical, hands-on implementations across AWS Cloud infrastructure and modern AI engineering. Projects focus on bridging foundational cloud patterns—such as IaC, event-driven serverless architectures, and security compliance—with production-ready Generative AI agent workflows.
